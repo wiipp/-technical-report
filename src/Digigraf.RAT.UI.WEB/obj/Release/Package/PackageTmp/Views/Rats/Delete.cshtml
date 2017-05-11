@@ -1,0 +1,195 @@
+﻿@model Digigraf.Rat.Aplicacao.ViewModel.RatVm
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+@*<h2>Deletar RAT</h2>*@
+
+<h3>Excluir RAT</h3>
+@*<div>*@
+@*<h4>RAT</h4>*@
+<hr />
+<div class="panel panel-primary">
+
+    <div class="panel-heading">RAT @Html.DisplayFor(model => model.cod_rat) , deseja apagar? </div>
+
+    <div class="panel-body">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.a1_cod)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.a1_cod)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.hr_abre_cham_hp)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.hr_abre_cham_hp)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.hr_fecha_cham_hp)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.hr_fecha_cham_hp)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.solucao)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.solucao)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.hr_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.hr_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.hr_vis_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.hr_vis_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.hr_vis_fim_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.hr_vis_fim_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.cod_ate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Atendente.nome_ate)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.cod_tec)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tecnico.nome_tec)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.cod_gru)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tecnico.Grupo.des_gru)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.tipo_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.tipo_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.descricao)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.descricao)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.b1_cod)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.b1_cod)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.local_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.local_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.valor_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.valor_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.m_obra_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.m_obra_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.km_cli_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.km_cli_rat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.inst_sw)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.inst_sw)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.empresa)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.empresa)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.email_cli_rat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.email_cli_rat)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+
+
+@using (Html.BeginForm())
+            {
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Deletar" class="btn btn-default" /> |
+        @Html.ActionLink("Voltar", "ListarRat")
+    </div>
+}
+        </div>
+
+

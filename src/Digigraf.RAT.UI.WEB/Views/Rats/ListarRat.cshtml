@@ -1,0 +1,125 @@
+﻿
+@model IEnumerable<Digigraf.Rat.Aplicacao.ViewModel.RatVm>
+
+@{
+    ViewBag.Title = "Listar Rat -";
+}
+
+<br />
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="table-responsive">
+
+            <div class="form-group form-inline">
+                <a class="btn btn-success" href="@Url.Action("Create","Rats")" id="btnCreate">
+                    Novo RAT  <span class="glyphicon glyphicon-plus"> </span>
+                </a>
+            </div>
+            <legend>Rats Abertos</legend>
+
+            <div class="table-responsive">
+                <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.cod_rat)</th>
+                            <th>@Html.DisplayNameFor(model => model.a1_cod)</th>
+                            <th>@Html.DisplayNameFor(model => model.cod_ate)</th>
+                            <th>@Html.DisplayNameFor(model => model.cod_tec)</th>
+                            <th>@Html.DisplayNameFor(model => model.cod_gru)</th>
+                            <th>@Html.DisplayNameFor(model => model.tipo_rat)</th>
+                            <th>@Html.DisplayNameFor(model => model.dt_rat)</th>
+                            @*<th>@Html.DisplayNameFor(model => model.b1_cod) </th>*@
+                            <th>@Html.DisplayNameFor(model => model.descricao)</th>
+                            @*<th>@Html.DisplayNameFor(model => model.local_rat)</th>*@
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            //if (item.Ativo == false)
+                            //{
+                            //    continue;
+                            //}
+
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.cod_rat)</td>
+                                <td> @Html.DisplayFor(modelItem => item.a1_cod)</td>
+                                <td> @Html.DisplayFor(modelItem => item.Atendente.nome_ate)</td>
+                                <td> @Html.DisplayFor(modelItem => item.Tecnico.nome_tec)</td>
+                                <td> @Html.DisplayFor(modelItem => item.Tecnico.Grupo.des_gru)</td>
+                                <td> @Html.DisplayFor(modelItem => item.tipo_rat)</td>
+                                <td> @Html.DisplayFor(modelItem => item.dt_rat)</td>
+                                @*<td> @Html.DisplayFor(modelItem => item.b1_cod) </td>*@
+                                <td> @Html.DisplayFor(modelItem => item.descricao) </td>
+                                @*<td> @Html.DisplayFor(modelItem => item.local_rat)</td>*@
+
+                                <td>
+                                    @Html.ActionLink("Editar", "Edit", new { id = item.cod_rat }) |
+                                    @Html.ActionLink("Detalhes", "GerarPDF", new { id = item.cod_rat }) |
+                                    @Html.ActionLink("Excluir", "Delete", new { id = item.cod_rat })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#example').DataTable({
+                responsive: true,
+                //"bJQueryUI": true,
+                //"sPaginationType": "full_numbers",
+                //"sDom": '<"H"Tlfr>t<"F"ip>',
+        //        "sDom": "<'dt-toolbar'<'col-xs-12 col-sm-6'f><'col-sm-6 col-xs-12 hidden-xs'l>r>" +
+        //"t" +
+        //"<'dt-toolbar-footer'<'col-sm-6 col-xs-12 hidden-xs'i><'col-xs-12 col-sm-6'p>>",
+                "autoWidth": true,
+                "responsive": true,
+                "info": true,
+                "paging": true,
+                //"pageLength": 9,
+                //"ordering": false,
+                //"filter": true,
+                //"lengthChange": false,
+                //"processing": false,
+                //"serverSide": false,
+
+                "language": {
+                    "sLengthMenu": "Mostrar _MENU_ registros por página",
+                    "sZeroRecords": "Nenhum registro encontrado",
+                    "sInfo": "Mostrando _START_ / _END_ de _TOTAL_ registro(s)",
+                    "sInfoEmpty": "Mostrando 0 / 0 de 0 registros",
+                    "sInfoFiltered": "(filtrado de _MAX_ registros)",
+                    "sSearch": "Pesquisar: ",
+                    "paginate": {
+                        "previous": "Anterior",
+                        "next": "Próximo",
+                        "sFirst": "Inicio",
+                        "sLast": "Último"
+                    }
+                },
+
+                "aaSorting": [[0, 'desc']],
+                "aoColumnDefs": [
+                    { "sType": "num-html", "aTargets": [0] }
+
+                ]
+            });
+        });
+
+    </script>
+}
+
+
+
+
+
+

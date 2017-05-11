@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{97BB8A1E-E32A-4301-96E7-37BB07B8B79D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacao", "2 - Aplicacao", "{C691F7B4-82D9-495F-81B2-DCFE20DCCBFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{5C1C2314-F1CB-42AC-B9B9-B8E0EA010C1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{E947DBCE-DA2C-424B-AA0F-04306DB42301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Dados", "4.1 - Dados", "{D78F4475-2036-4148-BCAD-9B6F762B786C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 -CrossCutting", "4.2 -CrossCutting", "{04E01472-EB6B-4017-B54A-49BFABC2AE55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digigraf.Rat.Dominio", "src\Digigraf.Rat.Dominio\Digigraf.Rat.Dominio.csproj", "{78DC61D4-5640-4CBB-B955-4C58AA2B84C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digigraf.Rat.Aplicacao", "src\Digigraf.Rat.Aplicacao\Digigraf.Rat.Aplicacao.csproj", "{376C585C-DA15-45BD-A452-02D130EC4E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digigraf.Rat.Infra.Dados", "src\Digigraf.Rat.Infra.Dados\Digigraf.Rat.Infra.Dados.csproj", "{0232A43E-282F-41E8-8192-71305011FF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digigraf.Rat.Infra.CrossCutting.Ioc", "src\Digigraf.Rat.Infra.CrossCutting.Ioc\Digigraf.Rat.Infra.CrossCutting.Ioc.csproj", "{5B78F2DA-EDC4-4340-974D-02A7D17C5901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digigraf.Rat.Infra.CrossCutting.Specifications.Validation", "src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.csproj", "{14BDB249-00C7-4635-AC65-0004DDF2AAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digigraf.RAT.UI.WEB", "src\Digigraf.RAT.UI.WEB\Digigraf.RAT.UI.WEB.csproj", "{01F125CF-3885-4EFB-BE05-8102F2348972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78DC61D4-5640-4CBB-B955-4C58AA2B84C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DC61D4-5640-4CBB-B955-4C58AA2B84C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DC61D4-5640-4CBB-B955-4C58AA2B84C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DC61D4-5640-4CBB-B955-4C58AA2B84C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376C585C-DA15-45BD-A452-02D130EC4E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376C585C-DA15-45BD-A452-02D130EC4E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376C585C-DA15-45BD-A452-02D130EC4E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376C585C-DA15-45BD-A452-02D130EC4E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0232A43E-282F-41E8-8192-71305011FF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0232A43E-282F-41E8-8192-71305011FF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0232A43E-282F-41E8-8192-71305011FF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0232A43E-282F-41E8-8192-71305011FF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B78F2DA-EDC4-4340-974D-02A7D17C5901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B78F2DA-EDC4-4340-974D-02A7D17C5901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B78F2DA-EDC4-4340-974D-02A7D17C5901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B78F2DA-EDC4-4340-974D-02A7D17C5901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BDB249-00C7-4635-AC65-0004DDF2AAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BDB249-00C7-4635-AC65-0004DDF2AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BDB249-00C7-4635-AC65-0004DDF2AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BDB249-00C7-4635-AC65-0004DDF2AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F125CF-3885-4EFB-BE05-8102F2348972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F125CF-3885-4EFB-BE05-8102F2348972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F125CF-3885-4EFB-BE05-8102F2348972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F125CF-3885-4EFB-BE05-8102F2348972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D78F4475-2036-4148-BCAD-9B6F762B786C} = {E947DBCE-DA2C-424B-AA0F-04306DB42301}
+		{04E01472-EB6B-4017-B54A-49BFABC2AE55} = {E947DBCE-DA2C-424B-AA0F-04306DB42301}
+		{78DC61D4-5640-4CBB-B955-4C58AA2B84C5} = {5C1C2314-F1CB-42AC-B9B9-B8E0EA010C1D}
+		{376C585C-DA15-45BD-A452-02D130EC4E3C} = {C691F7B4-82D9-495F-81B2-DCFE20DCCBFD}
+		{0232A43E-282F-41E8-8192-71305011FF3F} = {D78F4475-2036-4148-BCAD-9B6F762B786C}
+		{5B78F2DA-EDC4-4340-974D-02A7D17C5901} = {04E01472-EB6B-4017-B54A-49BFABC2AE55}
+		{14BDB249-00C7-4635-AC65-0004DDF2AAEF} = {04E01472-EB6B-4017-B54A-49BFABC2AE55}
+		{01F125CF-3885-4EFB-BE05-8102F2348972} = {97BB8A1E-E32A-4301-96E7-37BB07B8B79D}
+	EndGlobalSection
+EndGlobal

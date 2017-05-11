@@ -1,0 +1,58 @@
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.dll.config
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Aplicacao.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Dominio.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.Dados.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.Integration.Web.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\System.Web.Mvc.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\AutoMapper.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Dapper.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Aplicacao.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Dominio.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.Dados.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.Integration.Web.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\System.Web.Mvc.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\AutoMapper.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Dapper.xml
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\obj\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.csprojResolveAssemblyReference.cache
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\obj\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\obj\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.dll.config
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Aplicacao.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Dominio.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.Dados.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.Integration.Web.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\System.Web.Mvc.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\AutoMapper.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Dapper.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Aplicacao.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Dominio.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.Dados.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\SimpleInjector.Integration.Web.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\System.Web.Mvc.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\AutoMapper.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\bin\Release\Dapper.xml
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\obj\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.csprojResolveAssemblyReference.cache
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\obj\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Ioc\obj\Release\Digigraf.Rat.Infra.CrossCutting.Ioc.pdb

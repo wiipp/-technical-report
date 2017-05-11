@@ -1,0 +1,12 @@
+E:\Desenvolvimento\Projeto Rat.Net\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\bin\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+E:\Desenvolvimento\Projeto Rat.Net\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\bin\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+E:\Desenvolvimento\Projeto Rat.Net\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\obj\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+E:\Desenvolvimento\Projeto Rat.Net\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\obj\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+D:\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\bin\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+D:\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\bin\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+D:\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\obj\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+D:\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\obj\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\bin\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\bin\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\obj\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation\obj\Debug\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb

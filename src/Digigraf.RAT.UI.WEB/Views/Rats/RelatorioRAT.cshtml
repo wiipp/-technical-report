@@ -1,0 +1,295 @@
+﻿@model Digigraf.Rat.Aplicacao.ViewModel.RatVm
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatorio RAT</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container" style="margin:0;">
+
+        <div id="cabecalho">
+            <div style="float:left; margin:0 0 0 0;">
+                <img src="~/imgs/Digigraf-02.png" style="width: 150px; " />
+            </div>
+            <h3 style="float:right; margin:0 0 0 0;"> @Html.DisplayFor(model => model.cod_rat)</h3>
+            <div id="unidade" style="text-align:left; margin-left:250px;">
+                <h3> Relatorio de Atendimento Tecnico - RAT</h3>
+                <h5 style="margin-left:150px;">Grupo: @Html.DisplayFor(model => model.Tecnico.Grupo.des_gru)</h5>
+                <h5 style="margin-left:145px;">Tecnico: @Html.DisplayFor(model => model.Tecnico.nome_tec)</h5>
+                <h5 style="margin-left:100px;">Data e Hora da chamada: @Html.DisplayFor(model => model.dt_rat)</h5>
+                <h5 style="margin-left:95px;">Data Prevista Entrega RAT:</h5>
+            </div>
+        </div>
+        <hr style="margin-top:0.5em; margin-bottom: 0.5em;">
+
+        <div id="corpo">
+            <div class="cadCliente">
+                <div id="cliente">
+                    <p style="text-align: left;	display: inline; font-weight: bold;">Cliente: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_NOME)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 300px; font-weight: bold;"> Cod.Cliente: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.a1_cod)</p>
+
+                </div>
+                <div id="endereco">
+                    <p style="text-align: left;	display: inline; font-weight: bold;">Endereço: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_END)</p>
+                </div>
+                <div id="contato">
+                    <p style="text-align: left;	display: inline;font-weight: bold; ">Fone: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_TEL)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 100px; font-weight:bold;">Fax: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_FAX)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 140px; font-weight:bold;">Contato: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_CONTATO)</p>
+
+                </div>
+                <div id="municipio">
+                    <p style="text-align: left;	display: inline; font-weight:bold">Municipio: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_MUN)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 200px; font-weight:bold">Estado: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_EST)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 200px; font-weight:bold">CEP: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(x => x.A1_CEP)</p>
+
+                </div>
+                <div id="email">
+                    <p style="text-align: left;	display: inline;font-weight:bold ">Email: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.email_cli_rat)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 190px; font-weight: bold;">Depto: </p>
+                    <p style="text-align:left; display:inline;"></p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 300px; font-weight:bold">KM: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.km_cli_rat)</p>
+                </div>
+            </div>
+            <hr style="margin-top:0.5em; margin-bottom: 0.5em;">
+            <div class="linha">
+                <div id="data">
+                    <p style="text-align: left;	display: inline;font-weight:bold; ">Data Programada para Visita: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.dt_vis_rat)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 100px; font-weight:bold;">Hora: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.hr_vis_rat)</p>
+
+
+                    <p style="text-align: left;	display: inline; margin-left: 160px; font-weight:bold">Autorização de Serviço:  </p>
+                    <p style="text-align:left; display:inline;">Sim</p>
+
+                </div>
+                <div id="tipo">
+                    <p style="text-align: left;	display: inline;font-weight:bold ">Tipo de Serviço: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.tipo_rat)</p>
+                </div>
+                <div id="local">
+                    <p style="text-align: left;	display: inline; font-weight:bold ">Local da Assitência: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.local_rat)</p>
+
+                </div>
+                <div id="pedido">
+                    <p style="text-align: left;	display: inline; font-weight:bold ">Pedido para Faturamento: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.c5_num)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 100px; font-weight:bold;">Chamado: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.chamado)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 140px;font-weight:bold;">Severidade: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.severidade)</p>
+                </div>
+                <div id="equipamento">
+                    <p style="text-align: left;	display: inline;font-weight:bold ">Equipamento: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.descricao)</p>
+                </div>
+                <div id="numero">
+                    <p style="text-align: left;	display: inline;font-weight:bold; ">Numero de Série: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.n_serie_exp)</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 240px; font-weight:bold;">Abertura Chamado HP: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.dt_abre_cham_hp)</p>
+                </div>
+                <div id="temSol">
+                    <p style="text-align: left;	display: inline; font-weight:bold; ">Tempo de solução: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.solucao) hrs.</p>
+
+                    <p style="text-align: left;	display: inline; margin-left: 200px;font-weight:bold"> Fechamento Chamado HP: </p>
+                    <p style="text-align:left; display:inline;">@Html.DisplayFor(model => model.dt_fecha_cham_hp)</p>
+                </div>
+                <hr style="margin-top:0.5em;">
+                <div id="serv">
+                    <h5 style="text-align: left;	display: inline; font-weight:bold"> Serviço Solicitado: </h5>
+                    <p style="text-align: left;	display: inline; margin-left: 55px;">@Html.DisplayFor(model => model.defeito_rat)</p>
+                </div>
+                <hr />
+                <div id="defeito">
+                    <h5 style="text-align: left;	display: inline; font-weight:bold;"> Defeito diagnosticado: </h5>
+                    <p style="text-align: left;	display: inline; margin-left: 30px;">@Html.DisplayFor(model => model.def_diag_rat)</p>
+                </div>
+                <hr />
+                <div class="linha">
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Serviço Executado</th>
+                                <th>Trab</th>
+                                <th class="aling-right">Extras</th>
+                                <th class="aling-right">Km/H</th>
+                                @*<th class="aling-right">Total R$</th>*@
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd">
+                                <td class="bold" width="10%">13.01</td>
+                                <td width="60%">Efetuandoa troca de item CA297-00060 </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                            <tr class="odd">
+                                <td class="bold" width="10%"></td>
+                                <td width="60%"> </td>
+                                <td class="fonte10" width="10%"></td>
+                                <td class="aling-right" width="10%"></td>
+                                <td class="aling-right" width="100px;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" class="bold">Total</td>
+                                <td class="aling-right">&nbsp;</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <hr />
+                <div id="obs">
+                    <strong style="text-align: left;	display: inline;"> Observações: </strong>
+                    <p style="text-align: left;	display: inline; margin-left: 50px;">@Html.DisplayFor(model => model.obs_rat) </p>
+                </div>
+                <hr />
+                <div id="pen">
+                    <strong style="text-align: left;	display: inline;"> Pendências: </strong>
+                    <p style="text-align: left;	display: inline; margin-left: 50px;">@Html.DisplayFor(model => model.pendencia_rat) </p>
+                </div>
+                <hr />
+                <div id="visto">
+                    <strong style="text-align: left;	display: inline;">    Visto de Saida: </strong>
+                    <p style="text-align: left;	display: inline; margin-left: 10px;">
+                        Toda peça solicitada para reparo ou manutencao do equipamento, será disponibilizada no balcão Digigraf.
+                        O transporte e devolução da mesma é de responsabilidade do cliente.
+                        Os serviços solicitados foram realizados e os equipamentos encontram-se em perfeito estado de funcionamento.
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div id="tit">
+                <h3 style="text-align:left; display:inline">Digigraf</h3>
+                <h3 style="text-align:left; display:inline; margin-left:300px;">Cliente</h3>
+            </div>
+            <br />
+            <div id="tecnico" style="text-align:left; display:inline">
+                <p style="text-align:left;display:inline;">
+                    Tecnico:  <span style="padding-left:20px;">    __________________________________ </span>
+                </p>
+                <p style="text-align:left;display:inline; margin-left:45px;">
+                    Nome: _____________________________________________________
+                </p>
+            </div>
+            <br />
+            <br />
+            <div id="chegada" style="text-align:left; display:inline">
+                <p style="text-align:left;display:inline;">
+                    Chegada: <span style="padding-left:10px;">  ______ / _____ / _____  &nbsp;  ______ : ______</span>
+                </p>
+                <p style="text-align:left;display:inline; margin-left:50px;">
+                    ___________________________ &nbsp;&nbsp;____ / ____ / ____ &nbsp; ______ : ______
+                </p>
+            </div>
+            <div id="teset" style="display:inline-block;margin: 0 0 0 0">
+                <p style="text-align:left;display:inline;margin-left:500px; "> Assinatura</p>
+                <p style="text-align:left;display:inline;margin-left:135px; ">Data</p>
+                <p style="text-align:left;display:inline;margin-left:55px; margin-bottom:0px; ">Hora</p>
+            </div>
+            <br />
+            <div id="assinatura">
+                <p style="text-align:left;display:inline;">
+                    Saida: <span style="padding-left:30px;"> _____ / _____ / ______  &nbsp;  ______ : ______</span>
+                </p>
+            </div>
+            <hr />
+            <div id="rodape">
+                <p style="text-align:center;font-weight: bold;">Digigraf Distr.Com. e Serv. SA Rua Erasmo Braga,422 - CEP: 06213-005 - Pres.Altino - Osasco/SP</p>
+                <p style="text-align:center">CNPJ: 54.472.956./0001-15 I.E:111.267.723.111 Tel:(11)5585-5500 Fax(11)5585-5520</p>
+            </div>
+        </div>
+
+    </div>
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
+
+

@@ -1,0 +1,268 @@
+﻿@using Digigraf.RAT.UI.WEB.App_Helpers
+@model Digigraf.Rat.Aplicacao.ViewModel.RatVm
+
+@{
+    ViewBag.Title = "Editar -";
+}
+
+<h2>Alteração de RAT</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <fieldset>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="x_panel">
+                        <div class="x_content">
+                            @Html.ExibirMessagemRetorno(TempData["MensagemRetorno"])
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.cod_rat)
+
+                            <hr />
+                            <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+
+                                        @Html.LabelFor(model => model.cod_tec)
+                                        <div class="form-group">
+
+                                            @Html.DropDownListFor(model => model.cod_tec, Model.DropListTecnico, "Selecione", new { @id = "tecnico", @class = "js-select" }) <i></i>
+                                            @Html.ValidationMessageFor(model => model.cod_tec, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.cod_ate)
+                                        <div class="form-group">
+
+                                            @Html.DropDownListFor(model => model.cod_ate, Model.DropListAtendente, "Selecione", new { @id = "atendente", @class = "js-select" }) <i></i>
+                                            @Html.ValidationMessageFor(model => model.cod_ate, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.cod_gru)
+                                        <div class="form-group">
+
+                                            @Html.DropDownListFor(model => model.cod_gru, Model.DropListGrupo, "Selecione", new { @id = "areas", @class = "js-select" }) <i></i>
+                                            @Html.ValidationMessageFor(model => model.cod_gru, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-3 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.a1_cod)
+
+                                        @Html.EditorFor(model => model.a1_cod, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.a1_cod, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.empresa)
+
+                                        @Html.EditorFor(model => model.empresa, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.empresa, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-5 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.email_cli_rat)
+
+                                        @Html.EditorFor(model => model.email_cli_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.email_cli_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.km_cli_rat)
+
+                                        @Html.EditorFor(model => model.km_cli_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.km_cli_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.local_rat)
+
+                                        @Html.EditorFor(model => model.local_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.local_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.tipo_rat)
+
+                                        @Html.EditorFor(model => model.tipo_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.tipo_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.dt_vis_rat)
+                                        @Html.EditorFor(model => model.dt_vis_rat, new { htmlAttributes = new { data_mask = "99/99/9999", data_mask_placeholder = "-", @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.dt_vis_rat, "", new { @class = "text-danger" })
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-3 col-xs-4 form-group">
+                                        @Html.LabelFor(model => model.hr_vis_rat)
+                                        @Html.EditorFor(model => model.hr_vis_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.hr_vis_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-3 col-xs-4 form-group">
+                                        @Html.LabelFor(model => model.hr_vis_fim_rat)
+
+                                        @Html.EditorFor(model => model.hr_vis_fim_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.hr_vis_fim_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    @*<div class="form-group col-md-4">
+                                            @Html.LabelFor(model => model.Hr_Rat)
+
+                                            @Html.EditorFor(model => model.Hr_Rat, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.Hr_Rat, "", new { @class = "text-danger" })
+                                        </div>*@
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.b1_cod)
+
+                                        @Html.EditorFor(model => model.b1_cod, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.b1_cod, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.descricao)
+
+                                        @Html.EditorFor(model => model.descricao, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.descricao, "", new { @class = "text-danger" })
+                                    </div>
+
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.valor_rat)
+
+                                        @Html.EditorFor(model => model.valor_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.valor_rat, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.m_obra_rat)
+
+                                        @Html.EditorFor(model => model.m_obra_rat, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.m_obra_rat, "", new { @class = "text-danger" })
+
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.solucao)
+                                        @Html.EditorFor(model => model.solucao, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.solucao, "", new { @class = "text-danger" })
+                                    </div>
+
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                        @Html.LabelFor(model => model.inst_sw)
+
+                                        @Html.EditorFor(model => model.inst_sw, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.inst_sw, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+
+                                    <div class="col-md-4 col-sm-5 col-xs-4 form-group">
+                                        @Html.LabelFor(model => model.hr_abre_cham_hp)
+                                        @Html.EditorFor(model => model.hr_abre_cham_hp, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.hr_abre_cham_hp, "", new { @class = "text-danger" })
+                                    </div>
+
+
+                                    <div class="col-md-4 col-sm-5 col-xs-4 form-group">
+                                        @Html.LabelFor(model => model.hr_fecha_cham_hp)
+                                        @Html.EditorFor(model => model.hr_fecha_cham_hp, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.hr_fecha_cham_hp, "", new { @class = "text-danger" })
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-4">
+                                        <input type="submit" value="Salvar" class="btn btn-success" />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-4">
+                                            <a href="@Url.Action("ListarRat","Rats")">
+                                                <button type="button" class="btn btn-danger">
+                                                    Voltar
+                                                </button>
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </fieldset>
+}
+
+
+
+@section scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script src="~/Scripts/plugin/placeholders.jquery.min.js"></script>
+    <script src="~/Scripts/plugin/select2.full.min.js"></script>
+    <script src="~/Scripts/plugin/pt-BR.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $(".js-select")
+            .select2({
+                allowClear: true,
+                width: '100%'
+            });
+        });
+
+    </script>
+
+
+}
+
+
+
+

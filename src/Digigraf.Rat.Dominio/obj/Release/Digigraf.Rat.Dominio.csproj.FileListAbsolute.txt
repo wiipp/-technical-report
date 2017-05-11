@@ -1,0 +1,14 @@
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Dominio.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Dominio.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\obj\Release\Digigraf.Rat.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\obj\Release\Digigraf.Rat.Dominio.dll
+C:\Users\William\Desktop\Projeto Rat.Net.alteraqdo\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\obj\Release\Digigraf.Rat.Dominio.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Dominio.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Dominio.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\bin\Release\Digigraf.Rat.Infra.CrossCutting.Specifications.Validation.pdb
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\obj\Release\Digigraf.Rat.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\obj\Release\Digigraf.Rat.Dominio.dll
+C:\Users\William\Desktop\Projeto.RAT.Atualizado\Projeto Rat.Net\RAT\src\Digigraf.Rat.Dominio\obj\Release\Digigraf.Rat.Dominio.pdb
